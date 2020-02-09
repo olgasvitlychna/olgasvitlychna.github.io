@@ -1,12 +1,12 @@
 #static {
-    width: 400;
-    height: 150;
+    width: 400px;
+    height: 150px;
     background-color: steelblue;
 }
 #relative {
     position: relative;
     width: 600px;
-    height: 450;
+    height: 450px;
     background-color: yellow;
     top: 50px;
     left: 50px
