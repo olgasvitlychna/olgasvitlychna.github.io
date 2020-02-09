@@ -1,0 +1,38 @@
+.box {
+    width: 150px;
+	height: 150px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.box:hover {
+    cursor: pointer;
+}
+
+.width-transition {
+	background: red;
+	transition: width 2s ease-out;
+}
+
+.width-transition:hover {
+    width: 400px;
+}
+
+.height-transition {
+    background: indigo;
+    transition: height 2s ease-out;
+}
+.height-transition:hover {
+    height: 400px;
+}
+
+.both-transition {
+    background: lawngreen;
+    transition: height 2s ease-out, weight 2s ease-out;
+}
+
+.both-transition:hover {
+    height: 300px;
+    width: 300px;
+}
