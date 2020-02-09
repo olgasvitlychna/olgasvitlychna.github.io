@@ -1,0 +1,5 @@
+#pierwszy::before{
+    content: "Dodatkowa treść przed paragrafem";
+    color: green;
+    background-color: red;
+}

@@ -1,0 +1,27 @@
+[title] {
+    color: dodgerblue;
+}
+
+[title="About me"] {
+    color: fuchsia
+}
+
+[title~= "title"] {
+    color: gold;
+}
+
+[title*="Con"]{
+    background-color: indianred;
+}
+
+[title^="Section"] {
+    color: khaki;
+}
+
+[title$='skills']{
+    background-color: lawngreen;
+}
+
+nav > ul > li > a[title*="oll"]{
+    background-color: rgb(233, 37, 23);
+}
