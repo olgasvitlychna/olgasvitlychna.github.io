@@ -1,0 +1,9 @@
+#background-img {
+    background-color: lightgoldenrodyellow;
+    background-image: url(../img/truskawka.jpg);
+    background-repeat: repeat-y;
+    background-position: top;
+    background-size: cover;
+    /* moze byc contain  */
+    background-attachment: fixed;
+}

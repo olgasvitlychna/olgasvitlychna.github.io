@@ -1,0 +1,15 @@
+p{
+    background-color: lightsalmon !important;
+}
+
+p#paragraph{
+    background-color: rgb(19, 96, 168);
+}
+
+p.paragraph{
+    background-color: lawngreen;
+}
+
+p{
+    background-color: lightcoral;
+}

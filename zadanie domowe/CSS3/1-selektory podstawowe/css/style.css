@@ -1,0 +1,16 @@
+*{
+    color: green;
+}
+p{color:red
+;}
+div.lorak{
+    color: blue;
+}
+a > span {
+    background-color: chocolate;
+}
+ul a{
+    color: darkgreen;
+}
+li#pierwszy + li {background-color: hotpink}
+li#pierwszy ~ li {background-color: rgb(68, 20, 44)}

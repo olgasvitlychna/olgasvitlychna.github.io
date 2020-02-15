@@ -1,0 +1,30 @@
+#send:hover{
+    background-color: darkkhaki;
+}
+#name:focus{
+    border: 5px solid gold;
+    background-color: blue;
+}
+
+.customer{
+    color: palevioletred
+}
+
+.customer:first-child{
+    color: darkblue;
+}
+
+.customer:nth-child(4){
+    background-color: darkorchid;
+}
+
+.customer:nth-last-child(2){
+    background-color: darkslateblue;
+}
+
+.customer:nth-child(2n + 1){
+    background-color: deeppink;
+}
+.customer:nth-child(3n - 1){
+    background-color: rgb(185, 142, 165);
+}
