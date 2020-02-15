@@ -5,15 +5,32 @@
     border: 1px solid gold;
     padding: 10px;
     margin: 5px;
-    flex-basis: 10%;
+    flex-basis: 28%;
+    max-width: 220px;
+    
+    
 }
 
 .flex-item:nth-of-type(odd) {
     background-color: sienna;
-    flex-basis: 20%;
+    
+    
+    
 }
 
 .container {
     border: 2px dashed purple;
     display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    
+    
+}
+
+.ordered-item {
+    /* align-self: flex-end; */
+    /* align-self: center; */
+    /* align-self: start;*/
+    
+
 }

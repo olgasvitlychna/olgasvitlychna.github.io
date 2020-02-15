@@ -5,6 +5,7 @@
     border: 1px solid gold;
     padding: 10px;
     margin: 5px;
+    max-width: 200px;
 }
 
 .flex-item:nth-of-type(odd) {
@@ -14,4 +15,7 @@
 .container {
     border: 2px dashed purple;
     display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
 }
