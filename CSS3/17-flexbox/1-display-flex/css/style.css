@@ -1,0 +1,17 @@
+.flex-item {
+    background-color: gray;
+    front-family: "Lato", sans-serif;
+    color: white;
+    border: 1px solid gold;
+    padding: 10px;
+    margin: 5px;
+}
+
+.flex-item:nth-of-type(odd) {
+    background-color: sienna;
+}
+
+.container {
+    border: 2px dashed purple;
+    display: flex;
+}
