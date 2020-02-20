@@ -1,0 +1,25 @@
+.kwadrat {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    margin: 10px;
+    position: relative;
+    left: 300px;
+    top: 50px;
+}
+
+#two{
+    opacity: .8;
+}
+#three{
+    opacity: .4;
+}
+
+#four{
+    opacity: .2;
+}
+
+.fon{
+    background-color: rgb(224, 222, 199);
+    height: 1800px;
+}
