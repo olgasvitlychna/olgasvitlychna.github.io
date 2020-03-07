@@ -36,7 +36,7 @@
 
 .box-height:hover {
     height: 300px;
-
+}
 .box-width-height {
     background-color: indianred;
     transition: height 2s, width 1s, background-color 2s;

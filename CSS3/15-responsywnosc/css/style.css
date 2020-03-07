@@ -11,7 +11,7 @@
     padding: 15px;
 }
 
-@media (max-widrh: 992px) {
+@media (max-width: 992px) {
     .box{
         width: 50%;
     }

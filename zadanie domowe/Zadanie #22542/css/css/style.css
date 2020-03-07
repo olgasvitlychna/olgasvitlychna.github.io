@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+.number {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
+  overflow: hidden;
+  color: white;
+}
+
+
+@keyframes load {
+  100% {
+    transform: translateY(-100px);
+  }
+}
+.timer {
+  animation: load 11s steps(11, end) infinite;
+}

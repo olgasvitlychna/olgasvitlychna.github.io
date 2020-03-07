@@ -1,0 +1,70 @@
+body {
+	font-family: 'Verdana', sans-serif;
+	color: black;
+}
+.text {
+    text-transform: uppercase;
+}
+
+div img {
+    width: 100%;
+}
+
+/* div {
+    width: 1024px;
+	margin: 0 auto;
+}  */
+
+#picture2 {
+    display: none
+}
+
+@media  (max-width:992px) { 
+    
+    #picture1 {
+        display: block;
+        width: 100%;
+        height: 70%;
+    }
+
+    .text {
+        display: block;
+        text-align: center;
+        font-size: 30%;
+    }
+
+    /* #mainText{
+        vertical-align: middle;
+    } */
+     
+}
+
+@media (max-width: 1169px) and (min-width: 991px) {
+    
+    #mainText{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+        
+    .text {
+        
+        text-align: left;
+    
+        color: red;
+    }
+    #picture1{
+        display: none
+    }
+    #picture2 {
+        display: block;
+        height: 70%;
+        width: 100%;
+    }
+} 
+
+/* @media (min-width: 1170px) {
+
+    .text
+} */
