@@ -1,0 +1,109 @@
+$basic-font: "Open Sans" , "sans-serif";
+$main-blue: #001d8a;
+$main-yellow: #ecd407;
+$main-gray: #292929;
+$fixed: 0px;
+$no-color: transparent;
+
+
+@mixin background-image {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+body{
+    box-sizing: border-box;
+    margin: $fixed;
+    padding: $fixed;
+    font-family: $basic-font;
+    color: #fff;
+    font-size: 15px;
+    background-color: $main-blue;
+}
+
+span{
+    color: $main-yellow;
+}
+
+.navbar{
+    margin-bottom: 3em;
+    color: #fff;
+    .container {
+        .finanse {
+            display: flex;
+    align-items: baseline;
+    h3 {
+        color: #fff;
+    }
+    i {
+        color: $main-yellow;
+        font-size: 36px;
+    }
+
+        }
+        .text-left {
+            span {
+                color: #fff;
+                font-size: 25px;
+            }
+        }
+
+    }
+
+}
+
+
+.navbar-right{
+    justify-content: flex-end;
+}
+
+.contact-form {
+    @include background-image;
+    padding: 10em 0 8em 0;
+    min-height: 80vh;
+    background-image: url(../IMG/background.png);
+    h1{
+        color: #fff;
+        font-size: 20px;
+    }
+    form {
+        max-width: 27em;
+        padding: 1em;
+        background-color: $main-blue;
+        
+        h1{
+            font-size: 1.6em;
+            color: #fff;
+        }
+        fildset{
+            background-color: $main-blue;
+            padding: 1em;
+            
+            textarea{
+                resize: none;
+                width: 100%;
+                margin-bottom: 1em;
+                padding: 1em 1.2em;
+                border-radius: 5px;
+            }
+        }
+        
+    }
+}
+
+footer {
+    background-color: $main-gray;
+    padding: 2em 0 3em 0;
+
+i{
+    display: inline-block;
+    font-size: 1.5em;
+    color: $main-yellow;
+}
+p{
+    color: #fff;
+}
+}

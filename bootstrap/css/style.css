@@ -1,0 +1,18 @@
+.nowy {
+    height: 500px;
+    background-color: blueviolet;
+}
+
+.nowy1 {
+    height: 500px;
+    background-color: yellow 
+}
+
+.testowy :nth-child(2) {
+    background-color: tomato;
+}
+
+
+.carousel-inner {
+    height: 700px;
+}

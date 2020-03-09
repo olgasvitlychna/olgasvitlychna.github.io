@@ -1,0 +1,21 @@
+ul {
+  background-color: #aa99ff; }
+
+.zmienne {
+  font-family: sans-serif;
+  padding: 20px;
+  border: 20px solid blue; }
+  .zmienne ul {
+    background-color: yellow; }
+    .zmienne ul li {
+      font-weight: 800; }
+      .zmienne ul li a {
+        background-color: yellowgreen; }
+        .zmienne ul li a:hover {
+          color: hotpink; }
+
+.jakasSeKcja {
+  background-image: url(https://images.pexels.com/photos/2444429/pexels-photo-2444429.jpeg);
+  height: 500px;
+  background-position: center;
+  background-size: cover; }

@@ -1,0 +1,132 @@
+
+body {
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+a {
+    color: #e38f42;
+    /* efect przejscia chodzi o czasie, kiedy obiekt zmieni */
+    transition: all .75s;
+}
+p{
+    color: #888;
+}
+a:hover {
+    color: #e38f42;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 1em 1.3em;
+}
+
+.btn-orange{
+    background-color: #e38f42;
+    border: none;
+}
+.btn-gray {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: none;
+}
+
+.btn:hover{
+    opacity: 0.8;
+}
+
+.btn-orange:hover{
+    background-color: #e38f42;
+   
+}
+.btn-gray:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+   
+}
+
+section, footer {
+    padding: 8em 0 8.5em 0;
+}
+
+
+#navbarNav{
+    justify-content: flex-end;
+}
+.navbar{
+    background-color: #444;
+}
+.navbar-right {
+    justify-content: flex-end;
+}
+
+.navbar.navbar-brand, .navbar.navbar-nav .nav-link{
+    background-color: #c2c2c2;
+}
+.navbar.navbar-brand, .navbar.navbar-nav .nav-link:hover{
+    background-color: #c2c2c2;
+}
+
+.navbar a:hover {
+    color: #fff;
+}
+
+.join {
+    background-image: url(https://akademia108.pl/kurs-front-end/form-background.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.join form {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.join form header {
+    background-color: rgba(0, 0, 0, 0.35);
+    padding: 1.2em;
+    margin: 0;
+}
+
+.join form header p {
+    font-size: 0.95em;
+    margin: 0;
+    color: #2c2c2c;
+}
+
+.join form header i {
+    font-size: 3.5em;
+    opacity: 0.8;
+}
+
+.join form input, .join form textarea{
+    width: 100%;
+    margin-bottom: 1em;
+    padding: 1em 1.2em;
+    border-radius: 5px;
+}
+
+.join form textarea {
+    resize: none;
+}
+.join form .btn {
+    color: #fff
+}
+
+.join .inner-claim {
+    padding-top: 8.5em;
+}
+
+.join .inner-claim h1 {
+    color: #fff;
+}
+
+.join .inner-claim p {
+    font-size: 1.3em;
+    color: #c2c2c2;
+    margin: 1.3em 0 1.9em 0;
+}
