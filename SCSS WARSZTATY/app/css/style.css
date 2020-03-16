@@ -2,65 +2,6 @@ body {
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
-  font-family: "Open Sans", "sans-serif";
-  color: #fff;
-  font-size: 15px;
-  background-color: #001d8a; }
+  background-color: #001d8a; 
+}
 
-span {
-  color: #ecd407; }
-
-.navbar {
-  margin-bottom: 3em;
-  color: #fff; }
-  .navbar .container .finanse {
-    display: flex;
-    align-items: baseline; }
-    .navbar .container .finanse h3 {
-      color: #fff; }
-    .navbar .container .finanse i {
-      color: #ecd407;
-      font-size: 36px; }
-  .navbar .container .text-left span {
-    color: #fff;
-    font-size: 25px; }
-
-.navbar-right {
-  justify-content: flex-end; }
-
-.contact-form {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 10em 0 8em 0;
-  min-height: 80vh;
-  background-image: url(../IMG/background.png); }
-  .contact-form h1 {
-    color: #fff;
-    font-size: 20px; }
-  .contact-form form {
-    max-width: 27em;
-    padding: 1em;
-    background-color: #001d8a; }
-    .contact-form form h1 {
-      font-size: 1.6em;
-      color: #fff; }
-    .contact-form form fildset {
-      background-color: #001d8a;
-      padding: 1em; }
-      .contact-form form fildset textarea {
-        resize: none;
-        width: 100%;
-        margin-bottom: 1em;
-        padding: 1em 1.2em;
-        border-radius: 5px; }
-
-footer {
-  background-color: #292929;
-  padding: 2em 0 3em 0; }
-  footer i {
-    display: inline-block;
-    font-size: 1.5em;
-    color: #ecd407; }
-  footer p {
-    color: #fff; }
